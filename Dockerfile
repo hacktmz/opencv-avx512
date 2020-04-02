@@ -30,7 +30,6 @@ RUN     cp -r /usr/src/opencv/modules/features2d /usr/src/opencv/build && \
         libxrender-dev \
         libglib2.0-0 \
         libxext6 \
-        libzbar-dev \
         libsm6 && \
         CC="cc -mavx2" pip install -r /root/requirements.txt
 
